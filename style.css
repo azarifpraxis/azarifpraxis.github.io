@@ -2,5 +2,29 @@ body {
   font-family: "Zalando Sans", sans-serif;
     width: 600px; 
     margin: 40px auto;
-    
+    background-image: url(images/kasmingallery-alma-allen-not-yet-titled-2022\ \(1\).webp);
+    background-repeat: no-repeat;
+   /*  background-size: cover; */
+   
+}
+
+blockquote {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+a:link{color:#884411}
+a:visited{color:#129046}
+a:hover, a:focus{color:#334199}
+a:active{color:#197561}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+figure {
+
+  max-height: 90vh;
 }
