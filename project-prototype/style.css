@@ -11,11 +11,11 @@
 }
 
 html {
-    background-color: #f0f0f0;
+    background-color: #eefae6;
 }
 
 body {
-    color: #202020;
+    color: #1a3608;
     font-family: Outfit, sans-serif;
     max-width: 800px;
     margin: 2em auto;
@@ -30,26 +30,38 @@ header h1 {
     font-weight: 500;
     background-image: url('images/kasmingallery-jan-ole-schiemann-insectoid-2023.webp');
     background-position: 50% 50%;
-    background-size: 100%;
+    background-size: 150%;
     padding: 1em 1em 5em;
+    color: #eefae6;
+
 }
 
-a:link {color: #8833cc;}
-a:visited {color: #aa55ee;}
+a:link {color: #5ad30e;}
+a:visited {color: #7977ed;}
 a:hover,
-a:focus {color: #7722bb;}
-a:active {color: #8833cc;}
+a:focus {color: #efe7f5;}
+a:active {color: #d7eb3d;}
 
 nav {
-    border: 1px solid #cecece;
-    border-width: 1px 0;
-    padding: 0.5em 0;
-    margin: 0;
-    background: #f0f0f0;
+    padding: 2em;
+    margin: 0; 
+
+
 }
 
 nav a {
     text-decoration:none;
+    background-color: #275b06;
+    padding: 5px 6px 7px 8px;
+    border-radius: 50px;
+    display:block;
+    width: fit-content;
+
+}
+
+nav a:hover, 
+nav a:focus {
+    background-color: darkred;
 }
 
 main h1,
@@ -57,3 +69,17 @@ main h2,
 main p {
     margin: 1rem 0;
 }
+
+
+header {
+    float: left;
+    width: 30%;
+    position: sticky;
+
+}
+
+main {
+    float: right; 
+    width: 68%;
+}
+
