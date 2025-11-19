@@ -49,3 +49,7 @@ a:hover {
 footer a {
   font-weight: bold;
 }
+
+abbr:hover {
+  color: red
+}
